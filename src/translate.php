@@ -10,7 +10,7 @@ class translate
      * @param string $text
      * @return string
      */
-    public static function translate($source, $target, $text) {
+    public static function tr($source, $target, $text) {
 
         // Request translation
         $response = self::requestTranslation($source, $target, $text);
